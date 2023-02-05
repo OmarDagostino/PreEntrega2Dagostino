@@ -1,0 +1,15 @@
+.background_principal
+  {
+      background-image: URL(imagen_del_background.png) !important;
+      background-size: 120%;
+      background-repeat:2;
+      background-position: center center;
+  }
+#imagen_de_mirada_interior
+  {
+    max-height: 200px;
+  }
+#mandala
+  {
+    max-height: 200px;
+  }
