@@ -13,3 +13,19 @@
   {
     max-height: 200px;
   }
+  #test1 
+  {
+    list-style-type:upper-alpha ; 
+  }
+#test2 
+  {
+    list-style-type:upper-roman ; 
+  }
+#foto
+  {
+    max-height: 300px; max-width: 400px;
+  }
+#imagen_regresar
+  {
+    max-height: 40px
+  }
