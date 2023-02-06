@@ -7,11 +7,13 @@
   }
 #imagen_de_mirada_interior
   {
-    max-height: 200px;
+    max-height: 170px; 
+    max-width:250px;
   }
 #mandala
   {
-    max-height: 200px;
+    max-height: 170px;
+    max-width:200px
   }
   #test1 
   {
@@ -23,7 +25,8 @@
   }
 #foto
   {
-    max-height: 300px; max-width: 400px;
+    max-height: 300px; 
+    max-width: 400px;
   }
 #imagen_regresar
   {

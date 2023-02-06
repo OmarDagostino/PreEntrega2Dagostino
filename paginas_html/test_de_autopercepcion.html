@@ -11,50 +11,57 @@
     <title>Test de eneagrama</title>
 </head>
 <body>
-    <main id="arriba" class="bg-success" style="--bs-bg-opacity: .3;" >
-        <div class="container ms-0"> 
+    <main class="background_principal" >
+        <div class="container-fluid ms-0 "> 
             <div class="row">
-                <section class="col-3 col-sm-3 col-md-3 col-lg-3">
-                    <ul class="nav d-flex  flex-column">
+                <section class=" fixed-top col-12">
+                    <ul class=" justify-content-center nav-link text-center text-primary fw-bold nav  list-group list-group-horizontal" style="background-color: #e3f2fd;">
                         <li class="nav-item "> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../index.html">Volver al inicio  </a> 
+                            <a  class=" nav-link text-center text-primary fw-bold" href="../index.html">Volver al inicio  </a> 
+                        <li class="nav-item "> 
+                            <a  class="nav-link text-center text-primary fw-bold" href="../paginas_html/que_es_el_eneagrama.html">Qué es el eneagrama  </a> 
                         </li>
                         <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../paginas_html/que_es_el_eneagrama.html">Qué es el eneagrama  </a> 
+                            <a  class="nav-link text-center text-primary fw-bold" href="../paginas_html/eneatipos.html">Eneatipos </a> 
+                        <li class="nav-item"> 
+                            <a  class="nav-link text-center text-primary fw-bold" href="#top" >Test de autopercepción </a> 
                         </li>
                         <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../paginas_html/eneatipos.html">Eneatipos </a> 
+                            <a  class="nav-link text-center text-primary fw-bold" href="../paginas_html/camino.html">Camino</a> 
                         </li>
                         <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../paginas_html/camino.html">Camino</a> 
+                            <a  class="nav-link text-center text-primary fw-bold" href="../paginas_html/quienes_somos.html">Quiénes somos</a>
                         </li>
                         <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0  fw-bold" href="../paginas_html/quienes_somos.html">Quiénes somos</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0  fw-bold" href="../paginas_html/contacto.html">Contáctanos</a> 
+                            <a  class="nav-link text-center text-primary fw-bold" href="../paginas_html/contacto.html">Contáctanos</a> 
                         </li>
                     </Ul>
                 </section>
-                <header class="row col-9">
-                    <h1 class="col-12 text-center">    
-                        Test rápido de eneagrama     
-                    </h1> 
-                    <h2 class="col-12 text-center">
-                        (TRIE de Riso-Hudson)
-                    </h2>
-                    <div class="container">
-                        <div class="row">
-                            <h5 class="col-12">
-                                Elige una respuesta de la pregunta 1 y otra de la pregunta 2. No es necesario que estes 100 % de acuerdo con toda la declaración,
-                                solo elige la que estes mayormente de acuerdo con tu comportamiento normal (no con lo que se debería ser), 
-                                recuerda que no hay respuestas correctas o incorrectas. Cuando hayas elegido mira tu resultado con el boton de resultado del test. 
-                            </h5>
-                            
-                        </div>
-                    </div>
-                </header>
             </div>
+            <br> <br> 
+            <br class="d-lg-none"> <br class="d-lg-none"> 
+            <br class="d-md-none"> <br class="d-md-none"> 
+            <br class="d-sm-none">
+        </div>
+            <header class="row col-12 id=top ">
+                <h1 class="col-12 text-center">    
+                    Test rápido de eneagrama     
+                </h1> 
+                <h2 class="col-12 text-center">
+                    (TRIE de Riso-Hudson)
+                </h2>
+                <div class="container">
+                    <div class="row">
+                        <h5 class="col-12 ms-2">
+                            Elige una respuesta de la pregunta 1 y otra de la pregunta 2. No es necesario que estes 100 % de acuerdo con toda la declaración,
+                            solo elige la que estes mayormente de acuerdo con tu comportamiento normal (no con lo que se debería ser), 
+                            recuerda que no hay respuestas correctas o incorrectas. Cuando hayas elegido mira tu resultado con el boton de resultado del test. 
+                        </h5>
+                        
+                    </div>
+                </div>
+            </header>
+        </div>
             <div class="container ms-1 ">
                 <div class="row">
                     <h5 class="col-10">    
@@ -64,6 +71,7 @@
                         <a href="#resultado" class="nav-link rounded-2 border bg-info text-primary border-dark text-center"> Resultado del test </a>
                     </div>
                 </div>
+                <div class="col-12">
                     <ol id="test1">
                         <li>
                             Tiendo a ser bastante independiente y confiado: pienso que la vida va mejor cuando la esperas de frente. 
@@ -85,6 +93,7 @@
                             si me queda tiempo.
                         </li>
                     </ol>
+                </div>
                 <h5> 
                             Pregunta 2
                 </h5>
@@ -115,42 +124,22 @@
         </div>
         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-        <div class="container ms-0"> 
-            <div class="row">
-                <section class="col-3 col-sm-3 col-md-3 col-lg-3">
-                    <ul class="nav d-flex  flex-column">
-                        <li class="nav-item "> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../index.html">Volver al inicio  </a> 
-                        </li>
-                        <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../paginas_html/que_es_el_eneagrama.html">Qué es el eneagrama  </a> 
-                        </li>
-                        <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../paginas_html/eneatipos.html">Eneatipos </a> 
-                        </li>
-                        <li>
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="#arriba"> Test de autopercepción</a> 
-                        </li>
-                        <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0 fw-bold" href="../paginas_html/camino.html">Camino</a> 
-                        </li>
-                        <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0  fw-bold" href="../paginas_html/quienes_somos.html">Quiénes somos</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a  class=" p-1 nav-link bg-info rounded-2 text-center text-primary border border-dark m-1 mr-0  fw-bold" href="../paginas_html/contacto.html">Contáctanos</a> 
-                        </li>
-                    </Ul>
-                </section>
-                <header class="row col-9">
-                    <div class="container">
-                        <article class="row border border-3 border-dark rounded-2 ms-3 mt-3" >
-                            <h3 id="resultado" class="text-center col-9">    
-                                Resultado del Test rápido de Eneagrama  
-                            </h3>
-                            <div class="col-12">
-                                <strong>
-                                <ul class="list-group list-inline">
+        <div class="container ms-0" id=resultado > 
+            <header class="row col-12 ">
+                <div>
+                    <br> <br> 
+                    <br class="d-lg-none"> <br class="d-lg-none"> 
+                    <br class="d-md-none"> <br class="d-md-none"> 
+                    <br class="d-sm-none">   
+                </div>
+                <div class="container ">
+                    <article class="row border border-3 border-dark rounded-2 ms-3 mt-3" >
+                        <h3 class="col-12  text-center">    
+                            Resultado del Test rápido de Eneagrama  
+                        </h3>
+                        <div>
+                            <strong>
+                                <ul class="list-group list-inline text-center">
                                     <li class="list-group-item bg-transparent border-success border-opacity-10"> Respuestas A y I &#8614 Eneatipo 7 El Entusiasta</li>
                                     <li class="list-group-item bg-transparent border-success border-opacity-10"> Respuestas A y II &#8614 Eneatipo 8 El Desafiador</li>
                                     <li class="list-group-item bg-transparent border-success border-opacity-10"> Respuestas A y III &#8614 Eneatipo 3 El Triunfador</li>
@@ -161,17 +150,14 @@
                                     <li class="list-group-item bg-transparent border-success border-opacity-10"> Respuestas C y II &#8614 Eneatipo 6 El Leal</li>
                                     <li class="list-group-item bg-transparent border-success border-opacity-10"> Respuestas C y III &#8614 Eneatipo 1 El Perfeccionista</li>
                                 </ul>
-                                </strong>
-                            </div>
-                        </article>
-                        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-                        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-                    </div>                
-                </header>
-            </div>
-        </div>
-
-                    
+                            </strong>
+                        </div>
+                    </article>
+                    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                </div>                
+            </header>
+        </div>           
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>             
 </body>
