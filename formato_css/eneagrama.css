@@ -7,14 +7,19 @@
   }
 #imagen_de_mirada_interior
   {
-    max-height: 170px; 
-    max-width:250px;
+    max-height: 150px; 
+    max-width:220px;
   }
 #mandala
   {
-    max-height: 170px;
-    max-width:200px
-  }
+    max-height: 150px;
+    max-width:250px;
+     }
+.boton_regreso
+     {
+      max-width: 30px !important;
+      height: auto;
+     }
   #test1 
   {
     list-style-type:upper-alpha ; 

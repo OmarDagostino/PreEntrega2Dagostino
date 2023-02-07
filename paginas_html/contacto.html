@@ -50,19 +50,37 @@
                         Tu opinon es muy importante para nosotros
                     </h3> 
                 </header>
-                <section class="container">
-                    <div class="row">
-                        <form>
+                <section class="container m-0">
+                    <div class="row m-0">
+                        <form method="post" action="#" enctype="application/x-www-form-urlencoded">
                             <label class="col-12" for="nombre"> Nombre</label>
                             <input type="text" id="Nombre" name="nombre">
                             <label class="col-12" for="Apellido"> Apellido</label>
                             <input type="text" id="Apellido" name="apellido">
                             <label class="col-12" for="correo_electronico"> Correo Electrónico</label>
-                            <input type="email" id="correo_electronico" size="50"  name="correo_electronico">
+                            <input type="email" id="correo_electronico" size="34"  name="correo_electronico">
                             <label class="col-12" or="comentarios"> Comentarios </label>
-                            <input type="text" size="180" id="Comentarios" label="comentarios"> 
-                            <br> <br>
-                            <button class="col-2 mt-2 mb-5 rounded-2 bg-info text-primary fw-bold" type="submit"> Enviar </button>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Escriba sus comentarios" id="mensaje" style="height: 100px"></textarea>
+                                <label for="mensaje"></label>
+                              </div>
+                            <br>
+                            <div class="mb-3 col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                                <select class="form-select" aria-label="Eneatipo" name="eneatipo">
+                                    <option selected> Cual es tu eneatipo ? </option>
+                                    <option value="1"> Tipología 1 . El Perfeccionista </option>
+                                    <option value="2"> Tipología 2 . El Ayudador </option>
+                                    <option value="3"> Tipología 3 . El triunfador </option>
+                                    <option value="4"> Tipología 4 . El Individualista </option>
+                                    <option value="5"> Tipología 5 . El Investigador </option>
+                                    <option value="6"> Tipología 6 . El Leal </option>
+                                    <option value="7"> Tipología 7 . El Entusiasta </option>
+                                    <option value="8"> Tipología 8 . El Desafiador </option>
+                                    <option value="9"> Tipología 9 . El Pacificador </option>
+                                    <option value="0"> No lo sé / No estoy seguro </option>
+                                </select>
+                            </div>
+                            <button class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-4 mt-2 mb-5 rounded-2 bg-info text-primary fw-bold" type="submit"> Enviar </button>
                         </form>
                     </div>
                     <br> <br> 
