@@ -27,6 +27,7 @@
   {
     max-height: 300px; 
     max-width: 400px;
+    min-width:200px
   }
 #imagen_regresar
   {
@@ -58,20 +59,26 @@ ul li a:hover
     85% {width:45%; transform:rotate(340deg); translate: 25%  -5%}
     90% {width:40%; transform:rotate(360deg); translate: 25%  -5%}
     95% {width:35%; transform:rotate(360deg); translate: 25%  0%}
-    100% {width:25%; transform:rotate(360deg); translate: 0% 0%}
+    100% {width:19%; transform:rotate(360deg); translate: 0% 0%}
   }
    #mandala 
     {
      
-      width: 25%; 
+      width: 19%; 
       animation-name:entrada_del_mandala;
       animation-fill-mode: forwards;
       animation-delay: 0s;
       animation-duration: 2s;
       animation-iteration-count: 1;
+      min-width: 150px;
     }
   #mandala1
   {
-    width:25%;
+    width:19%;
+    min-width: 150px;
+  }
+  #mandala_con_flechas
+  {
+    min-width: 40px;
   }
 
