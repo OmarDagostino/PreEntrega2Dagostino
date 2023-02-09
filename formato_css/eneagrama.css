@@ -15,7 +15,7 @@
       max-width: 30px !important;
       height: auto;
      }
-  #test1 
+#test1 
   {
     list-style-type:upper-alpha ; 
   }
@@ -36,9 +36,9 @@
 ul li a:hover
   {
   background-color:rgb(209, 249, 227);
-  font-size:150%;
+  font-size:130%;
   }
-  @keyframes entrada_del_mandala
+@keyframes entrada_del_mandala
   {
     0% {width:130%; transform:rotate(20deg); translate: -40% -50%}
     5% {width:125%; transform:rotate(40deg); translate: -40% -50%}
@@ -61,7 +61,7 @@ ul li a:hover
     95% {width:35%; transform:rotate(360deg); translate: 25%  0%}
     100% {width:19%; transform:rotate(360deg); translate: 0% 0%}
   }
-   #mandala 
+#mandala 
     {
      
       width: 19%; 
@@ -72,13 +72,17 @@ ul li a:hover
       animation-iteration-count: 1;
       min-width: 150px;
     }
-  #mandala1
+#mandala1
   {
     width:19%;
     min-width: 150px;
   }
-  #mandala_con_flechas
+#mandala_con_flechas
   {
     min-width: 40px;
+  }
+h1
+  {
+    font-family: 'Rye', cursive;
   }
 
