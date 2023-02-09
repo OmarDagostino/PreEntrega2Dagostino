@@ -1,18 +1,18 @@
 .background_principal
   {
       background-image: URL(imagen_del_background.png) !important;
-      background-size: 120%;
+      background-size:120%;
       background-repeat:2;
       background-position: center center;
   }
 #imagen_de_mirada_interior
   {
-    max-height: 150px; 
+    max-height:150px; 
     max-width:220px;
   }
 .boton_regreso
      {
-      max-width: 30px !important;
+      max-width:30px !important;
       height: auto;
      }
 #test1 
@@ -25,8 +25,8 @@
   }
 #foto
   {
-    max-height: 300px; 
-    max-width: 400px;
+    max-height:300px; 
+    max-width:400px;
     min-width:200px
   }
 #imagen_regresar
@@ -63,14 +63,13 @@ ul li a:hover
   }
 #mandala 
     {
-     
-      width: 19%; 
-      animation-name:entrada_del_mandala;
-      animation-fill-mode: forwards;
-      animation-delay: 0s;
-      animation-duration: 2s;
-      animation-iteration-count: 1;
-      min-width: 150px;
+    width: 19%; 
+    animation-name:entrada_del_mandala;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    min-width: 150px;
     }
 #mandala1
   {
